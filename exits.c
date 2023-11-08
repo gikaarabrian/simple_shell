@@ -2,9 +2,9 @@
 
 /**
  **_strncpy - copies a string
- *@dest: the destination string to be copied to
+ *@dest: the destination string to copy to
  *@src: the source string
- *@n: the amount of characters to be copied
+ *@n: the amount of characters to copy
  *Return: the concatenated string
  */
 char *_strncpy(char *dest, char *src, int n)
@@ -31,11 +31,11 @@ char *_strncpy(char *dest, char *src, int n)
 }
 
 /**
- **_strncat - concatenates two strings
+ **_strncat - combines two strings
  *@dest: the first string
  *@src: the second string
- *@n: the amount of bytes to be maximally used
- *Return: the concatenated string
+ *@n: The maximum number of bytes to be used for the concatenation.
+ *Return:  The resulting concatenated string.
  */
 char *_strncat(char *dest, char *src, int n)
 {
@@ -58,9 +58,9 @@ char *_strncat(char *dest, char *src, int n)
 }
 
 /**
- **_strchr - locates a character in a string
- *@s: the string to be parsed
- *@c: the character to look for
+ **_strchr - searches for a character in a string
+ *@s: the string to be examined
+ *@c: the character to be located
  *Return: (s) a pointer to the memory area s
  */
 char *_strchr(char *s, char c)
@@ -72,4 +72,3 @@ char *_strchr(char *s, char c)
 
 	return (NULL);
 }
-
